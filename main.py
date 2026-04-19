@@ -6,7 +6,7 @@ from flask import Flask, request, Response, jsonify
 app = Flask(__name__)
 
 # ── Credentials from environment variables ────────────────────────────────────
-GROQ_API_KEY         = os.environ.get("GROQ_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 TELNYX_API_KEY       = os.environ.get("TELNYX_API_KEY", "")
 TELNYX_FROM_NUMBER   = os.environ.get("TELNYX_FROM_NUMBER", "")
 TELNYX_CONNECTION_ID = os.environ.get("TELNYX_CONNECTION_ID", "")
